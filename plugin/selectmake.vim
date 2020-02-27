@@ -12,7 +12,7 @@ let make_selected = 1
 let s:cpo_bak = &cpo
 set cpo&vim
 
-let s:patterns = [ { 'glob': ['bb'], 'makeprg' : '../bb -j4' },
+let s:patterns = [ { 'glob': ['bb'], 'makeprg' : './bb -j4' },
                  \ { 'glob': ['CMakeLists.txt'], 'makeprg' : '../bb -j4' },
                  \ { 'glob': ['waf'], 'makeprg' : './waf -p -j3' },
                  \ { 'glob': ['wscript_build'], 'makeprg' : '../waf -p -j3' },
